@@ -5,9 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Uncomment and set basePath if deploying to github.io/repo-name
-  // basePath: '/mtg_app',
-  // assetPrefix: '/mtg_app/',
+  // Required for GitHub Pages deployment to github.io/repo-name
+  basePath: '/mtg_project',
+  assetPrefix: '/mtg_project/',
 };
 
 module.exports = nextConfig;
